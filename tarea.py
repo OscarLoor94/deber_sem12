@@ -43,6 +43,6 @@ for i in range(len(temperatura)): #Recorremos nuestra lista
 # Calculamo  el promedio si se cumple nuestra condicional
 if contador > 0:
     promedio = suma / contador #Calculamos promedio
-    print(f"El promedio de la ciudad {semana+1} de la semana {dia+1} es: {promedio}") #Imprimimos el resultado
+    print(f"El promedio de la ciudad {semana} de la semana {dia} es: {promedio}") #Imprimimos el resultado
 else:
     print("No se puede calcular .")
